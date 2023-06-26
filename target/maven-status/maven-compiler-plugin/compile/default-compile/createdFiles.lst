@@ -1,0 +1,8 @@
+persistencia\TaskJpaController.class
+logica\ControladoraLogica.class
+servlets\SvTask.class
+logica\Task.class
+persistencia\exceptions\NonexistentEntityException.class
+persistencia\exceptions\PreexistingEntityException.class
+persistencia\ControladoraPersistencia.class
+persistencia\exceptions\IllegalOrphanException.class

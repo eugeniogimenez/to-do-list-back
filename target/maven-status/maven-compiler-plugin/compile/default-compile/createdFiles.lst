@@ -1,4 +1,5 @@
 persistencia\TaskJpaController.class
+logica\CorsFilter.class
 logica\ControladoraLogica.class
 servlets\SvTask.class
 logica\Task.class
@@ -6,3 +7,4 @@ persistencia\exceptions\NonexistentEntityException.class
 persistencia\exceptions\PreexistingEntityException.class
 persistencia\ControladoraPersistencia.class
 persistencia\exceptions\IllegalOrphanException.class
+logica\TaskUpdateRequest.class

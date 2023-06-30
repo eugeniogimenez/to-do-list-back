@@ -6,10 +6,10 @@
         <class>logica.Task</class>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://bgy2mqswztvgzdegxsqe-mysql.services.clever-cloud.com:3306/bgy2mqswztvgzdegxsqe"/>
-            <property name="javax.persistence.jdbc.user" value="uzpebdz4kljqusfp"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/todolist?serverTimezone=UTC"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.password" value="EIG1m3kUqKIQX47FvilE"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
             <property name="javax.persistence.schema-generation.database.action" value="create"/>
             <!--
             <property name="javax.persistence.jdbc.url" value="mysql://uzpebdz4kljqusfp:EIG1m3kUqKIQX47FvilE@bgy2mqswztvgzdegxsqe-mysql.services.clever-cloud.com:3306/bgy2mqswztvgzdegxsqe"/>

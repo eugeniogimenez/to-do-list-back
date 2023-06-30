@@ -1,5 +1,6 @@
 package persistencia;
 
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import logica.Task;
@@ -39,6 +40,10 @@ public class ControladoraPersistencia {
         } catch (NonexistentEntityException ex) {
             Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+
+    public List<Task> obtenerTodasLasTareas() {
+        return taskjpacontroller.findTaskEntities();
     }
 
 }

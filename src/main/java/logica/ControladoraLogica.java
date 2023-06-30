@@ -1,5 +1,7 @@
 package logica;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import persistencia.ControladoraPersistencia;
@@ -31,5 +33,33 @@ public class ControladoraLogica {
     public void eliminarTarea(int id) {
 
         controlPersis.eliminarTarea(id);
+    }
+
+    //READ TAREAS PENDIENTES
+    public List<Task> obtenerTareasIncompletas() {
+        List<Task> tareasIncompletas = new ArrayList<>();
+        List<Task> todasLasTareas = controlPersis.obtenerTodasLasTareas();
+
+        for (Task tarea : todasLasTareas) {
+            if (!tarea.isCompleted()) {
+                tareasIncompletas.add(tarea);
+            }
+        }
+
+        return tareasIncompletas;
+    }
+
+    //READ TAREAS COMPLETADAS
+    public List<Task> obtenerTareasCompletadas() {
+        List<Task> tareasCompletadas = new ArrayList<>();
+        List<Task> todasLasTareas = controlPersis.obtenerTodasLasTareas();
+
+        for (Task tarea : todasLasTareas) {
+            if (tarea.isCompleted()) {
+                tareasCompletadas.add(tarea);
+            }
+        }
+
+        return tareasCompletadas;
     }
 }

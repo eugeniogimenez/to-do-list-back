@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package persistencia;
 
 import java.io.Serializable;
@@ -12,6 +16,10 @@ import javax.persistence.criteria.Root;
 import logica.Task;
 import persistencia.exceptions.NonexistentEntityException;
 
+/**
+ *
+ * @author elthu
+ */
 public class TaskJpaController implements Serializable {
 
     private static EntityManagerFactory emf = null; //le agrego el static

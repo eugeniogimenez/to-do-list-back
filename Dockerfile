@@ -1,4 +1,4 @@
-FROM amazoncorretto: 8-alpine-jdk
+FROM tomcat:9.0-alpine
 MAINTAINER ELG
-COPY target/ToDoList-1.0-SNAPSHOT.war todolist.war
-ENTRYPOINT ["java", "-war", "/todolist.war"]
+COPY target/ToDoList-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
+ENTRYPOINT ["catalina.sh", "run"]

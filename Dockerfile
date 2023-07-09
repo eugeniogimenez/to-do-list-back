@@ -1,4 +1,10 @@
-FROM tomcat:9.0-alpine
-MAINTAINER ELG
-COPY target/ToDoList-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
-ENTRYPOINT ["catalina.sh", "run"]
+FROM openjdk:18-jdk-slim
+
+WORKDIR /app
+
+COPY target/ToDoList-1.0-SNAPSHOT.war /app/app.war
+
+EXPOSE 8080
+
+CMD ["java", "-jar", "app.war"]
+

@@ -1,9 +1,12 @@
+# Usa la imagen de Tomcat 9.0.78-jdk17-temurin-jammy como base
+FROM tomcat:9.0.78-jdk17-temurin-jammy
 
-FROM tomcat:9.0-jdk8-openjdk-slim
+# Copia el archivo WAR de tu aplicación al directorio webapps de Tomcat
+COPY target/ToDoList-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
 
-COPY target/ToDoList-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/app.war
-
+# Puerto que expondrá la aplicación web
 EXPOSE 8080
 
+# Comando para ejecutar Tomcat (iniciará la aplicación web automáticamente)
 CMD ["catalina.sh", "run"]
 

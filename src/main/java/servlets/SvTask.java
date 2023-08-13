@@ -30,7 +30,7 @@ public class SvTask extends HttpServlet {
             throws ServletException, IOException {
 
         // Agregar el encabezado Access-Control-Allow-Origin para permitir el acceso desde http://localhost:1234
-        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234");
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234, https://astonishing-biscotti-18bcdf.netlify.app");
 
         response.setHeader("Access-Control-Allow-Methods", "GET");
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");
@@ -69,7 +69,7 @@ public class SvTask extends HttpServlet {
             throws ServletException, IOException {
 
         // Agregar el encabezado Access-Control-Allow-Origin para permitir el acceso desde http://localhost:1234
-        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234");
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234, https://astonishing-biscotti-18bcdf.netlify.app");
         response.setHeader("Access-Control-Allow-Methods", "GET");
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
@@ -89,7 +89,7 @@ public class SvTask extends HttpServlet {
             throws ServletException, IOException {
 
         // Agregar el encabezado Access-Control-Allow-Origin para permitir el acceso desde http://localhost:1234
-        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234");
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234, https://astonishing-biscotti-18bcdf.netlify.app");
         response.setHeader("Access-Control-Allow-Methods", "GET");
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
@@ -109,7 +109,7 @@ public class SvTask extends HttpServlet {
             throws ServletException, IOException {
 
         // Agregar el encabezado Access-Control-Allow-Origin para permitir el acceso desde http://localhost:1234
-        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234");
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234, https://astonishing-biscotti-18bcdf.netlify.app");
         response.setHeader("Access-Control-Allow-Methods", "GET");
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
@@ -167,7 +167,7 @@ public class SvTask extends HttpServlet {
             throws ServletException, IOException {
 
         // Agregar el encabezado Access-Control-Allow-Origin para permitir el acceso desde http://localhost:1234
-        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234");
+        response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234, https://astonishing-biscotti-18bcdf.netlify.app");
         response.setHeader("Access-Control-Allow-Methods", "DELETE");
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
@@ -201,7 +201,7 @@ public class SvTask extends HttpServlet {
             throws ServletException, IOException {
 
         // Agregar el encabezado Access-Control-Allow-Origin para permitir el acceso desde http://localhost:1234
-        //response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234");
+        //response.setHeader("Access-Control-Allow-Origin", "http://localhost:1234, https://astonishing-biscotti-18bcdf.netlify.app");
         response.setHeader("Access-Control-Allow-Origin", "*");
         response.setHeader("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE");
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");

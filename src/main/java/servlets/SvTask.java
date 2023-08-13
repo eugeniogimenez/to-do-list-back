@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebFilter;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -14,6 +15,7 @@ import logica.Task;
 import logica.TaskUpdateRequest;
 
 @WebServlet(name = "SvTask", urlPatterns = {"/SvTask/*"})
+@WebFilter(filterName = "CorsFilter", urlPatterns = {"/*"})
 public class SvTask extends HttpServlet {
 
     ControladoraLogica controlLogica = new ControladoraLogica();

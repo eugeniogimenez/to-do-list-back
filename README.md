@@ -31,6 +31,9 @@ Se sigue el modelo MVC para trabajar por capas, principalmente las de Logica y P
 ## Base de Datos:
 Utilización de MySQL mediante el servicio de Clever Cloud. 
 
+## Docker:
+La app se dockerizó para su posterior despliegue.
+
 ## Postman:
 La dirección de la documentación postman para hacer uso de la app vía APIs se brinda aquí:
 

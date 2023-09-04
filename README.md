@@ -10,7 +10,7 @@ El proyecto consiste en una app de "Lista de Tareas". El usuario puede visualiza
  IMPORTANTE: al usarse un servidor de pruebas (Clever Cloud) se debe tener paciencia en cuanto a la carga de información ya que puede tener demoras.
 
 ## Front:
-El front se puede ver en el siguiente repositorio: https://github.com/eugeniogimenez/to-do-list-back
+El front se puede ver en el siguiente repositorio: https://github.com/eugeniogimenez/to-do-list-front
 
 ## Back:
 El backend se encuentra dockerizado y desplegado en en:

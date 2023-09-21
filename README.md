@@ -1,9 +1,9 @@
-# TO DO LIST - BACK  
+# TO DO LIST - BACK  </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="50" height="50"/> </a>
 
 ## Descripcion General:
 El proyecto consiste en una app de "Lista de Tareas". El usuario puede visualizar las tareas pendientes, cargar nuevas, marcar como completadas, editar lo necesario y eliminarlas.
 
- Siguiendo el modelo "Cliente - Servidor", tanto el front como el back se trabajaron por separado. En resumen, para el front se uso Typescript, y para el back, JAVA, conectando a una base de datos MySQL.
+ Siguiendo el modelo "Cliente - Servidor", tanto el front como el back se trabajaron por separado. En resumen, para el front se uso Typescript, y para el back, JAVA </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="30" height="30"/> </a>, conectando a una base de datos MySQL.
 
  La dirección de la app es: https://to-do-list-front.netlify.app/
 
@@ -18,7 +18,7 @@ https://to-do-list-back-3mpv.onrender.com
 
 Las tecnologías usadas son:
 
-- ##### JAVA
+- ##### JAVA </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="30" height="30"/> </a>
 - ##### Servlets
 - ##### Docker
 - ##### MySQL

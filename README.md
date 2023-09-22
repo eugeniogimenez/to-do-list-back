@@ -29,7 +29,7 @@ Las tecnologías usadas son:
 Se sigue el modelo MVC para trabajar por capas, principalmente las de Logica y Persistencia.
 
 ## Base de Datos:
-Utilización de MySQL mediante el servicio de Clever Cloud. 
+Utilización de MySQL <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="30" height="30"/> </a> mediante el servicio de Clever Cloud. 
 
 ## Docker <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>:
 La app se dockerizó para su posterior despliegue.
